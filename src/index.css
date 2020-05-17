@@ -1,13 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Avenir Next, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-family: "Avenir Next";
+  src: url("./assests/font/Avenir_Next.ttc") format("truetype");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+@font-face {
+  font-family: "Avenir Next";
+  src: url("./assests/font/Avenir_Next.ttc") format("truetype");
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #1b1e1f;
+}
+
+.Button {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.bg {
+  opacity: 100%;
+  background: #2f2e2e;
+}
+
+footer {
+  text-align: center;
+  background: #e8e8e8;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-left: 696px;
+  padding-right: 695px;
 }

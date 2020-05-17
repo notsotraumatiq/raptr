@@ -1,0 +1,85 @@
+.hero {
+  background: url("../../assests/gpc_loginBg@2x.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero nav img {
+  height: 52px;
+  margin-top: 32px;
+  margin-left: 80px;
+}
+
+.hero form {
+  margin-top: 225px;
+  text-align: center;
+}
+.hero form h3 {
+  opacity: 60%;
+  color: #ffffff;
+  display: inline-block;
+  padding-right: 21px;
+  margin-bottom: 30px;
+}
+
+.hero form h3:active {
+  opacity: 100%;
+  text-decoration: underline;
+}
+
+.SignUp {
+  display: block;
+  position: relative !important;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* z-index: 2; */
+}
+
+.SignUp img {
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 30%;
+  top: 12px;
+  height: 24px;
+  width: 24px;
+  left: 20px;
+  right: 10px;
+  opacity: 60%;
+}
+
+.SignUp input {
+  height: 52px;
+  width: 360px;
+  border-radius: 0px;
+  opacity: 30%;
+
+  margin-bottom: 12px;
+  padding-left: 15px !important;
+  /* z-index: 1; */
+}
+/* .SignUp:before {
+  position: absolute;
+  content: "asd";
+
+  left: 5px;
+  top: 2px;
+
+  z-index: 2;
+} */
+.SignUp input::placeholder {
+  font-weight: 600;
+}
+
+.SignUp button {
+  margin-bottom: 236px;
+  height: 49px;
+  background: #2fcbfc;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  width: 360px;
+}
