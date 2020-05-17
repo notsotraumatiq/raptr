@@ -117,18 +117,22 @@ class SignUp extends Component {
             onChange={(event) => this.inputChangedHandler(event, "username")}
           />
         </div>
-        <input
-          type="text"
-          placeholder="Email Address"
-          name="email"
-          onChange={(event) => this.inputChangedHandler(event, "email")}
-        />
-        <input
-          type="text"
-          placeholder="Password"
-          name="password"
-          onChange={(event) => this.inputChangedHandler(event, "password")}
-        />
+        <div>
+          <input
+            type="text"
+            placeholder="Email Address"
+            name="email"
+            onChange={(event) => this.inputChangedHandler(event, "email")}
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Password"
+            name="password"
+            onChange={(event) => this.inputChangedHandler(event, "password")}
+          />
+        </div>
         <button>SIGN UP</button>
       </div>
     );

@@ -12,7 +12,6 @@ function App() {
       <Switch>
         <Route path="/auth" component={Auth} />
         <Route exact path="/" component={Landing} />
-
         <Redirect to="/" />
       </Switch>
     </div>

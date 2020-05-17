@@ -47,17 +47,16 @@
   width: 24px;
   left: 20px;
   right: 10px;
-  opacity: 60%;
 }
 
-.SignUp input {
+.SignUp div input {
   height: 52px;
   width: 360px;
   border-radius: 0px;
   opacity: 30%;
 
   margin-bottom: 12px;
-  padding-left: 15px !important;
+
   /* z-index: 1; */
 }
 /* .SignUp:before {
