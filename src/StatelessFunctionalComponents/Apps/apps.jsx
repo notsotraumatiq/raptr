@@ -17,8 +17,10 @@ const apps = () => {
           <img src={require("../../assests/logo_movo@2x.png")} alt="" />
           <h5>Movo</h5>
         </a>
+        {/* Copied the orginal link from the pdf gave me a null error for Conair and Tapping*/}
         <a
-          href="https://movo.me"
+          href="https://itunes.apple.com/us/app/ww-body-analysis-scale-tracker/
+          id1157071126?mt="
           target="_blank"
           rel="noopener noreferrer"
           className={classes.imgContainer}
@@ -27,7 +29,8 @@ const apps = () => {
           <h5>Conair WeightWatchers</h5>
         </a>
         <a
-          href="https://movo.me"
+          href="https://itunes.apple.com/us/app/the-tapping-solution/
+          id1419815487?mt=8"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.imgContainer}
@@ -39,7 +42,7 @@ const apps = () => {
           <h5>Tapping Solution</h5>
         </a>
         <a
-          href="https://movo.me"
+          href="https://www.gotenna.com"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.imgContainer}
