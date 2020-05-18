@@ -1,17 +1,10 @@
-Project Timeframe
-Spent about 5-10% of the time I spent on laying out the functionality and designing the componenets (Breaking down the design into smaller design and figuring out the components, determining what I want to render
-
-Spent about 25% - 30% Implementing just the functionaitlies: post request, declaring classes, rendering the state and things to render when the state changes while adding content(paragraph data) keeping tags in mind.
-
-Spent about 30%- 40% implementing styling for each individual components
-
-Spent 10% trying out to incorporate new UI features like the notification panel after you sign up or login or subscribe
-
-Spent the last 10% refactoring, tweaking minor changes and testing to make sure everything works perfectly as it was intended to be.
-
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you have to run:
+
+### `npm instal`
+
+then
 
 ### `npm start`
 

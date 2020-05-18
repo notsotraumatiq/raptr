@@ -4,6 +4,8 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import classes from "./Auth.module.css";
 
+// isSignUp state checks whether user has to sign up or log in the default is set to true and based on the boolean it will load formLogin or formSignUp
+
 class Auth extends Component {
   state = {
     controls: {
@@ -31,7 +33,8 @@ class Auth extends Component {
       return { isSignUp: !prevState.isSignUp };
     });
   };
-  handleSubscribe = (event) => {
+
+  handleSubmit = (event) => {
     event.preventDefault();
 
     let formData = new FormData();
@@ -172,7 +175,7 @@ class Auth extends Component {
         <nav>
           <img src={require("../../assests/gpc_logo@2x.png")} alt="" />
         </nav>
-        <form onSubmit={this.handleSubscribe}>
+        <form onSubmit={this.handleSubmit}>
           {this.state.isSignUp ? formSignUp : formLogin}
         </form>
         <ToastContainer

@@ -1,6 +1,9 @@
 import React from "react";
 
 import classes from "./apps.module.css";
+
+// Contains the sections of all the apps and its data
+
 const apps = () => {
   return (
     <section className={classes.section2}>

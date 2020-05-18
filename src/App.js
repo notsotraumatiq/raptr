@@ -5,6 +5,8 @@ import Auth from "./Containers/Auth/Auth";
 import Landing from "./Containers/Landing/Landing";
 import "./App.css";
 
+// There are 2 pages the landing which is the main page and Auth with manages SignUp and Login
+
 function App() {
   return (
     <div className="App">
