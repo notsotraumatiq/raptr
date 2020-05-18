@@ -11,26 +11,42 @@ const apps = () => {
         <a
           href="https://movo.me"
           target="_blank"
+          rel="noopener noreferrer"
           className={classes.imgContainer}
         >
           <img src={require("../../assests/logo_movo@2x.png")} alt="" />
           <h5>Movo</h5>
         </a>
-        <div className={classes.imgContainer}>
+        <a
+          href="https://movo.me"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.imgContainer}
+        >
           <img src={require("../../assests/logo_conair@2x.png")} alt="" />
           <h5>Conair WeightWatchers</h5>
-        </div>
-        <div className={classes.imgContainer}>
+        </a>
+        <a
+          href="https://movo.me"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.imgContainer}
+        >
           <img
             src={require("../../assests/logo_tappingSolution@2x.png")}
             alt=""
           />
           <h5>Tapping Solution</h5>
-        </div>
-        <div className={classes.imgContainer}>
+        </a>
+        <a
+          href="https://movo.me"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.imgContainer}
+        >
           <img src={require("../../assests/logo_goTenna@2x.png")} alt="" />
           <h5>goTenna</h5>
-        </div>
+        </a>
       </div>
     </section>
   );

@@ -10,25 +10,23 @@ class Subscribe extends Component {
     event.preventDefault();
 
     let formData = new FormData();
-
     formData.set("email", this.state.input);
 
     axios
       .post("http://dev.rapptrlabs.com/Tests/scripts/add-email.php", formData)
       .then((response) => {
-        toast.success(response.data.message, {
+        toast.info(response.data.message, {
           position: "top-right",
-          autoClose: 4000,
+          autoClose: 3000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
         });
-        console.log(response);
       })
       .catch((error) => {
-        toast.error(error.response.data.message, {
+        toast.info(error.response.data.message, {
           position: "top-right",
           autoClose: 4000,
           hideProgressBar: false,
@@ -37,7 +35,6 @@ class Subscribe extends Component {
           draggable: true,
           progress: undefined,
         });
-        console.log(error.response.data);
       });
   };
   handleInput = (event) => {
@@ -47,11 +44,11 @@ class Subscribe extends Component {
   };
   render() {
     return (
-      <div className={classes.Border}>
-        <h2 className={classes.Subscribe}>SUBSCRIBE TO NEWSLETTER</h2>
+      <div className={classes.border}>
+        <h2 className={classes.subscribe}>SUBSCRIBE TO NEWSLETTER</h2>
         <form>
           <input
-            className={classes.Input}
+            className={classes.input}
             type="email"
             name="email"
             placeholder="Your email"
@@ -62,7 +59,7 @@ class Subscribe extends Component {
           />
           <button
             onClick={(event) => this.handleSubscribe(event)}
-            className={classes.Btn}
+            className={classes.btn}
             type="submit"
           >
             SUBSCRIBE

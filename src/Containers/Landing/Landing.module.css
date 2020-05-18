@@ -2,7 +2,7 @@ button-parent {
   text-align: right;
 }
 
-.hero nav {
+.outerMain nav {
   display: flex;
   padding: 32px 80px;
 }
@@ -17,11 +17,12 @@ nav button {
   color: #ffffff;
 }
 
-.Login {
+.landing {
   display: inline-block;
+  cursor: pointer;
 }
 
-.hero header {
+.outerMain header {
   padding: 230px 545px;
   text-align: center;
 }
@@ -30,14 +31,14 @@ header img {
   height: 70px;
 }
 
-.hero header h2 {
+.outerMain header h2 {
   margin-top: 32px;
   color: #fff;
   font-weight: 600;
   font-size: 28px;
 }
 
-.hero {
+.outerMain {
   background: url("../../assests/gpc_hero_image@2x.png");
   background-size: cover;
   background-position: bottom;

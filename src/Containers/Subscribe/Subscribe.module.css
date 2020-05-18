@@ -1,15 +1,15 @@
-.Border {
+.border {
   padding-top: 88px;
   text-align: center;
 }
 
-.Subscribe {
+.subscribe {
   color: #2fcbfc;
   margin: 0;
   padding-bottom: 45px;
 }
 
-.Input {
+.input {
   padding-left: 20px;
   padding-right: 0px;
   height: 49px;
@@ -18,7 +18,8 @@
   border: 1px solid rgb(168, 168, 168);
   width: 276px;
 }
-.Btn {
+
+.btn {
   width: 165px;
   height: 49px;
   border: none;

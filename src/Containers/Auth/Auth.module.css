@@ -1,10 +1,94 @@
-/* body {
-  background: url("../../assests/gpc_loginBg@2x.png") no-repeat center center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+.outerMain {
+  background: url("../../assests/gpc_loginBg@2x.png");
   background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
-} */
+  background-position: bottom;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.outerMain nav img {
+  height: 52px;
+  margin-top: 32px;
+  margin-left: 80px;
+}
+
+.outerMain form {
+  margin-top: 136px;
+  text-align: center;
+}
+
+.outerMain form h3 {
+  color: #ffffff;
+  display: inline-block;
+  padding-right: 21px;
+  margin-bottom: 30px;
+}
+
+.active {
+  opacity: 100%;
+  text-decoration: underline;
+}
+
+.notActive {
+  cursor: pointer;
+  opacity: 60%;
+  text-decoration: none;
+}
+
+.formClass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.formClass img {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  width: 24px;
+  height: 24px;
+}
+
+.formClass div input {
+  margin-top: 12px;
+  width: 100%;
+  height: 51px;
+  text-indent: 54px;
+  border: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 0px transparent inset;
+}
+
+.formClass input::placeholder {
+  font-weight: 540;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.formClass:-webkit-autofill,
+.formClass:-webkit-autofill:hover,
+.formClass:-webkit-autofill:focus,
+.formClass:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 0px transparent inset !important;
+}
+
+.formClass button {
+  margin-top: 20px;
+  margin-bottom: 236px;
+  height: 49px;
+  background: #2fcbfc;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  width: 360px;
+}

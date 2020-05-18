@@ -4,7 +4,6 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import Auth from "./Containers/Auth/Auth";
 import Landing from "./Containers/Landing/Landing";
 import "./App.css";
-import { ToastContainer } from "react-toastify";
 
 function App() {
   return (

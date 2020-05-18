@@ -13,10 +13,10 @@ class Landing extends Component {
 
   render() {
     return (
-      <div className="outer">
-        <div className={classes.hero}>
+      <div className="outerClass">
+        <div className={classes.outerMain}>
           <nav>
-            <button className={classes.Login} onClick={this.HandleAuth}>
+            <button className={classes.landing} onClick={this.HandleAuth}>
               Login
             </button>
           </nav>
